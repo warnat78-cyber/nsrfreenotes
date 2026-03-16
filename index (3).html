@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>UOR Notes NSR – Free Notes & PYQ Papers | Rajasthan University</title>
+<meta name="description" content="UOR Notes NSR provides free study notes and previous year question papers for Rajasthan University students. 100% free."/>
+<meta name="keywords" content="Rajasthan University notes, UOR notes, BCA notes, BA notes, BSc notes, PYQ papers, NSR Rathore"/>
+<meta name="author" content="NSR Rathore"/>
+<meta name="robots" content="index, follow"/>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:#0d0f18;color:#eaeaf0;font-family:system-ui,-apple-system,'Segoe UI',sans-serif;min-height:100vh;overflow-x:hidden}
+:root{--bg:#0d0f18;--surface:#141620;--card:#1a1d2e;--border:#252840;--accent:#f5a623;--accent2:#e05c5c;--accent3:#5c8ee0;--text:#eaeaf0;--muted:#8888a8;--gold:#f5c842}
+nav{position:sticky;top:0;z-index:100;background:rgba(13,15,24,.95);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:0 5%;display:flex;align-items:center;justify-content:space-between;height:62px}
+.logo{font-size:1.4rem;font-weight:900;color:var(--gold);text-decoration:none;letter-spacing:-.5px}
+.logo span{color:var(--accent2)}
+.nav-links{display:flex;gap:1.8rem;list-style:none}
+.nav-links a{color:var(--muted);text-decoration:none;font-size:.88rem;font-weight:500;transition:color .2s}
+.nav-links a:hover{color:var(--text)}
+.nav-cta{background:var(--accent)!important;color:#000!important;padding:6px 14px;border-radius:6px;font-weight:700!important}
+.hamburger{display:none;cursor:pointer;background:none;border:none;color:var(--text);font-size:1.5rem;padding:4px}
+.hero{padding:90px 5% 70px;text-align:center;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;top:-120px;left:50%;transform:translateX(-50%);width:600px;height:450px;background:radial-gradient(ellipse,rgba(245,166,35,.1) 0%,transparent 70%);pointer-events:none}
+.hero-badge{display:inline-block;background:rgba(245,166,35,.1);border:1px solid rgba(245,166,35,.3);color:var(--accent);font-size:.75rem;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;padding:6px 16px;border-radius:100px;margin-bottom:1.5rem;animation:fadeUp .5s ease both}
+.hero h1{font-size:clamp(2.4rem,6vw,5rem);font-weight:900;line-height:1.1;margin-bottom:1.2rem;animation:fadeUp .6s ease .1s both}
+.hero h1 em{font-style:normal;color:var(--gold)}
+.hero p{color:var(--muted);font-size:1.05rem;max-width:520px;margin:0 auto 2.5rem;line-height:1.7;animation:fadeUp .6s ease .2s both}
+.hero-btns{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;animation:fadeUp .6s ease .3s both}
+.btn-primary{background:var(--accent);color:#000;border:none;padding:13px 26px;border-radius:8px;font-weight:700;font-size:.92rem;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:7px;transition:transform .2s,box-shadow .2s;box-shadow:0 4px 18px rgba(245,166,35,.3)}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 8px 28px rgba(245,166,35,.4)}
+.btn-outline{background:transparent;color:var(--text);border:1px solid var(--border);padding:13px 26px;border-radius:8px;font-weight:600;font-size:.92rem;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:7px;transition:border-color .2s,background .2s}
+.btn-outline:hover{border-color:var(--accent);background:rgba(245,166,35,.05)}
+.stats-bar{display:flex;justify-content:center;gap:3rem;padding:1.8rem 5%;border-top:1px solid var(--border);border-bottom:1px solid var(--border);flex-wrap:wrap}
+.stat{text-align:center}
+.stat-num{font-size:2rem;font-weight:900;color:var(--gold)}
+.stat-label{font-size:.8rem;color:var(--muted);margin-top:2px}
+.ad-slot{background:var(--surface);border:1px dashed var(--border);border-radius:10px;text-align:center;padding:16px;color:var(--muted);font-size:.78rem;margin:16px 5%;min-height:90px;display:flex;align-items:center;justify-content:center;gap:6px}
+section{padding:52px 5%}
+.sec-header{display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:1.6rem;flex-wrap:wrap;gap:.8rem}
+.sec-title{font-size:1.8rem;font-weight:900}
+.sec-title span{color:var(--accent)}
+.see-all{color:var(--accent);font-size:.85rem;font-weight:600;text-decoration:none}
+.search-wrap{display:flex;align-items:center;background:var(--card);border:1px solid var(--border);border-radius:12px;padding:0 14px;max-width:580px;margin:0 auto 2.2rem;gap:8px}
+.search-wrap input{flex:1;background:transparent;border:none;outline:none;color:var(--text);font-family:inherit;font-size:.92rem;padding:13px 0}
+.search-wrap input::placeholder{color:var(--muted)}
+.search-wrap button{background:var(--accent);color:#000;border:none;padding:7px 16px;border-radius:8px;font-weight:700;font-size:.82rem;cursor:pointer}
+.tabs{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:1.8rem}
+.tab{padding:7px 17px;border-radius:100px;border:1px solid var(--border);background:transparent;color:var(--muted);font-size:.83rem;font-weight:500;cursor:pointer;transition:all .2s;font-family:inherit}
+.tab.active,.tab:hover{background:var(--accent);color:#000;border-color:var(--accent)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:1.1rem}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;overflow:hidden;transition:transform .25s,border-color .25s,box-shadow .25s;animation:fadeUp .45s ease both}
+.card:hover{transform:translateY(-5px);border-color:rgba(245,166,35,.4);box-shadow:0 12px 32px rgba(0,0,0,.4)}
+.card-head{padding:16px 16px 12px;display:flex;align-items:flex-start;gap:11px}
+.card-icon{width:42px;height:42px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1.2rem;flex-shrink:0}
+.icon-notes{background:rgba(92,142,224,.15);color:var(--accent3)}
+.icon-pyq{background:rgba(245,166,35,.15);color:var(--gold)}
+.card-meta{flex:1}
+.card-tag{font-size:.7rem;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--muted);margin-bottom:3px}
+.card-title{font-weight:700;font-size:.9rem;line-height:1.4}
+.card-body{padding:0 16px 6px}
+.card-desc{font-size:.8rem;color:var(--muted);line-height:1.5}
+.card-footer{padding:12px 16px;display:flex;align-items:center;justify-content:space-between;border-top:1px solid var(--border)}
+.card-info{font-size:.76rem;color:var(--muted)}
+.dl-btn{background:var(--accent);color:#000;border:none;padding:7px 15px;border-radius:7px;font-size:.8rem;font-weight:700;cursor:pointer;display:flex;align-items:center;gap:5px;text-decoration:none;transition:opacity .2s}
+.dl-btn:hover{opacity:.85}
+.badge-new{display:inline-block;background:var(--accent2);color:#fff;font-size:.62rem;font-weight:700;padding:2px 6px;border-radius:4px;margin-left:5px;vertical-align:middle}
+.badge-hot{display:inline-block;background:var(--gold);color:#000;font-size:.62rem;font-weight:700;padding:2px 6px;border-radius:4px;margin-left:5px;vertical-align:middle}
+.subjects-section{background:var(--surface)}
+.subjects-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:.9rem}
+.subj-card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:20px 14px;text-align:center;cursor:pointer;transition:all .25s;text-decoration:none;color:var(--text);display:block}
+.subj-card:hover{border-color:var(--accent);background:rgba(245,166,35,.05);transform:translateY(-3px)}
+.subj-icon{font-size:1.9rem;margin-bottom:9px}
+.subj-name{font-weight:700;font-size:.85rem}
+.subj-count{font-size:.72rem;color:var(--muted);margin-top:3px}
+.upload-wrap{background:var(--card);border:1px solid var(--border);border-radius:20px;padding:48px 5%;text-align:center;margin:0 5%}
+.upload-wrap h2{font-size:1.8rem;font-weight:900;margin-bottom:.6rem}
+.upload-wrap>p{color:var(--muted);margin-bottom:2rem}
+.drop-area{border:2px dashed var(--border);border-radius:14px;padding:36px;max-width:480px;margin:0 auto 1.4rem;cursor:pointer;transition:border-color .2s}
+.drop-area:hover{border-color:var(--accent)}
+.drop-icon{font-size:2.2rem;margin-bottom:10px}
+.drop-area p{color:var(--muted);font-size:.85rem}
+.upload-form{display:flex;flex-direction:column;gap:11px;max-width:480px;margin:0 auto}
+.upload-form input,.upload-form select{background:var(--bg);border:1px solid var(--border);border-radius:9px;padding:11px 13px;color:var(--text);font-family:inherit;font-size:.88rem;outline:none;transition:border-color .2s}
+.upload-form input:focus,.upload-form select:focus{border-color:var(--accent)}
+.upload-form select option{background:var(--bg)}
+footer{background:var(--surface);border-top:1px solid var(--border);padding:48px 5% 28px}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:2.5rem;margin-bottom:2.5rem}
+.footer-brand p{color:var(--muted);font-size:.85rem;line-height:1.7;margin-top:9px}
+.footer-col h4{font-weight:700;font-size:.88rem;margin-bottom:.9rem}
+.footer-col ul{list-style:none}
+.footer-col ul li{margin-bottom:.45rem}
+.footer-col ul li a{color:var(--muted);text-decoration:none;font-size:.83rem;transition:color .2s}
+.footer-col ul li a:hover{color:var(--accent)}
+.footer-bottom{border-top:1px solid var(--border);padding-top:22px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem}
+.footer-bottom p{color:var(--muted);font-size:.8rem}
+.made-badge{background:rgba(245,166,35,.1);border:1px solid rgba(245,166,35,.25);padding:5px 13px;border-radius:100px;font-size:.78rem;color:var(--gold);font-weight:700}
+.modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.75);z-index:200;align-items:center;justify-content:center;padding:20px}
+.modal-overlay.open{display:flex}
+.modal{background:var(--card);border:1px solid var(--border);border-radius:20px;padding:34px;max-width:460px;width:100%;animation:fadeUp .3s ease;position:relative}
+.modal h3{font-size:1.3rem;font-weight:900;margin-bottom:.5rem}
+.modal p{color:var(--muted);font-size:.85rem;margin-bottom:1.5rem}
+.modal-close{position:absolute;top:14px;right:16px;background:none;border:none;color:var(--muted);font-size:1.3rem;cursor:pointer;line-height:1}
+#scrollTop{position:fixed;bottom:22px;right:22px;background:var(--accent);color:#000;border:none;width:42px;height:42px;border-radius:11px;cursor:pointer;font-size:1.2rem;display:none;align-items:center;justify-content:center;box-shadow:0 4px 14px rgba(245,166,35,.4);z-index:50}
+#scrollTop.show{display:flex}
+.toast{position:fixed;bottom:76px;right:22px;background:var(--card);border:1px solid var(--accent);color:var(--text);padding:11px 18px;border-radius:10px;font-size:.85rem;z-index:300;display:none;animation:fadeUp .3s ease;max-width:280px}
+.toast.show{display:block}
+.empty{color:var(--muted);grid-column:1/-1;padding:20px 0;font-size:.9rem}
+@keyframes fadeUp{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:768px){
+  .nav-links{display:none;flex-direction:column;gap:.8rem;position:absolute;top:62px;left:0;width:100%;background:var(--bg);padding:18px 5%;border-bottom:1px solid var(--border);z-index:99}
+  .nav-links.open{display:flex}
+  .hamburger{display:block}
+  .footer-grid{grid-template-columns:1fr 1fr}
+  .stats-bar{gap:1.6rem}
+}
+@media(max-width:480px){.footer-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="#" class="logo">UOR Notes <span>NSR</span></a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#notes">Notes</a></li>
+    <li><a href="#pyq">PYQ Papers</a></li>
+    <li><a href="#subjects">Subjects</a></li>
+    <li><a href="#upload">Upload</a></li>
+    <li><a href="#notes" class="nav-cta">Free Download</a></li>
+  </ul>
+  <button class="hamburger" onclick="document.getElementById('navLinks').classList.toggle('open')">&#9776;</button>
+</nav>
+
+<div class="ad-slot">
+  <!-- Google AdSense 728x90 | Replace below with your ad code -->
+  <!-- <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXX" data-ad-slot="XXXXXXXX" data-ad-format="auto" data-full-width-responsive="true"></ins> -->
+  &#9646; Advertisement
+</div>
+
+<section class="hero">
+  <div class="hero-badge">&#10022; Rajasthan University &middot; 100% Free</div>
+  <h1>Study Smarter with<br/><em>UOR Notes NSR</em></h1>
+  <p>Download free study notes &amp; previous year question papers for all RU courses &mdash; completely free, forever.</p>
+  <div class="hero-btns">
+    <a href="#notes" class="btn-primary">&#128218; Browse Notes</a>
+    <a href="#pyq" class="btn-outline">&#128196; PYQ Papers</a>
+  </div>
+</section>
+
+<div class="stats-bar">
+  <div class="stat"><div class="stat-num" id="cNotes">0</div><div class="stat-label">Study Notes</div></div>
+  <div class="stat"><div class="stat-num" id="cPyq">0</div><div class="stat-label">PYQ Papers</div></div>
+  <div class="stat"><div class="stat-num" id="cStudents">0</div><div class="stat-label">Students Helped</div></div>
+  <div class="stat"><div class="stat-num">FREE</div><div class="stat-label">Always &amp; Forever</div></div>
+</div>
+
+<section style="padding:36px 5% 0">
+  <div class="search-wrap">
+    <span style="color:var(--muted)">&#128269;</span>
+    <input type="text" id="searchInput" placeholder="Search notes, subjects, papers..." oninput="filterAll()"/>
+    <button onclick="filterAll()">Search</button>
+  </div>
+</section>
+
+<div style="display:flex;justify-content:center;padding:0 5% 16px">
+  <div class="ad-slot" style="min-height:250px;max-width:300px;width:100%">
+    <!-- Google AdSense 300x250 -->
+    <!-- <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-XXXXXXXX" data-ad-slot="XXXXXXXX"></ins> -->
+    &#9646; Advertisement
+  </div>
+</div>
+
+<section id="notes">
+  <div class="sec-header">
+    <h2 class="sec-title">Study <span>Notes</span></h2>
+    <a href="#" class="see-all">See all &rarr;</a>
+  </div>
+  <div class="tabs" id="noteTabs">
+    <button class="tab active" onclick="filterTab(this,'all','note')">All</button>
+    <button class="tab" onclick="filterTab(this,'bca','note')">BCA</button>
+    <button class="tab" onclick="filterTab(this,'ba','note')">BA</button>
+    <button class="tab" onclick="filterTab(this,'bsc','note')">BSc</button>
+    <button class="tab" onclick="filterTab(this,'bcom','note')">BCom</button>
+    <button class="tab" onclick="filterTab(this,'ma','note')">MA</button>
+  </div>
+  <div class="grid" id="notesGrid"></div>
+</section>
+
+<div class="ad-slot">&#9646; Advertisement</div>
+
+<section id="pyq">
+  <div class="sec-header">
+    <h2 class="sec-title">Previous Year <span>Question Papers</span></h2>
+    <a href="#" class="see-all">See all &rarr;</a>
+  </div>
+  <div class="tabs" id="pyqTabs">
+    <button class="tab active" onclick="filterTab(this,'all','pyq')">All Years</button>
+    <button class="tab" onclick="filterTab(this,'2024','pyq')">2024</button>
+    <button class="tab" onclick="filterTab(this,'2023','pyq')">2023</button>
+    <button class="tab" onclick="filterTab(this,'2022','pyq')">2022</button>
+    <button class="tab" onclick="filterTab(this,'2021','pyq')">2021</button>
+  </div>
+  <div class="grid" id="pyqGrid"></div>
+</section>
+
+<section id="subjects" class="subjects-section">
+  <div class="sec-header"><h2 class="sec-title">Browse by <span>Subject</span></h2></div>
+  <div class="subjects-grid">
+    <a href="#notes" class="subj-card"><div class="subj-icon">&#128187;</div><div class="subj-name">Computer Science</div><div class="subj-count">24 files</div></a>
+    <a href="#notes" class="subj-card"><div class="subj-icon">&#129518;</div><div class="subj-name">Mathematics</div><div class="subj-count">18 files</div></a>
+    <a href="#notes" class="subj-card"><div class="subj-icon">&#9878;</div><div class="subj-name">Chemistry</div><div class="subj-count">15 files</div></a>
+    <a href="#notes" class="subj-card"><div class="subj-icon">&#128300;</div><div class="subj-name">Biology</div><div class="subj-count">12 files</div></a>
+    <a href="#notes" class="subj-card"><div class="subj-icon">&#128218;</div><div class="subj-name">Hindi</div><div class="subj-count">20 files</div></a>
+    <a href="#notes" class="subj-card"><div class="subj-icon">&#127757;</div><div class="subj-name">English</div><div class="subj-count">16 files</div></a>
+    <a href="#notes" class="subj-card"><div class="subj-icon">&#128200;</div><div class="subj-name">Commerce</div><div class="subj-count">14 files</div></a>
+    <a href="#notes" class="subj-card"><div class="subj-icon">&#127963;</div><div class="subj-name">History</div><div class="subj-count">13 files</div></a>
+    <a href="#notes" class="subj-card"><div class="subj-icon">&#127760;</div><div class="subj-name">Geography</div><div class="subj-count">9 files</div></a>
+    <a href="#notes" class="subj-card"><div class="subj-icon">&#128181;</div><div class="subj-name">Economics</div><div class="subj-count">10 files</div></a>
+    <a href="#notes" class="subj-card"><div class="subj-icon">&#9878;</div><div class="subj-name">Political Sci</div><div class="subj-count">11 files</div></a>
+    <a href="#notes" class="subj-card"><div class="subj-icon">&#129504;</div><div class="subj-name">Psychology</div><div class="subj-count">8 files</div></a>
+  </div>
+</section>
+
+<div class="ad-slot">&#9646; Advertisement</div>
+
+<section id="upload" style="padding:52px 0">
+  <div class="upload-wrap">
+    <h2>&#128228; Contribute &amp; <span style="color:var(--accent)">Share Notes</span></h2>
+    <p>Have notes or papers? Share with thousands of RU students &mdash; completely free.</p>
+    <div class="drop-area" onclick="document.getElementById('fileIn').click()">
+      <div class="drop-icon">&#9729;</div>
+      <p>Click to select PDF file</p>
+      <p style="font-size:.73rem;margin-top:4px">Supported: PDF (max 20MB)</p>
+      <input type="file" id="fileIn" accept=".pdf" style="display:none" onchange="handleFile(this)"/>
+    </div>
+    <div class="upload-form">
+      <input type="text" id="uTitle" placeholder="Document title (e.g. BCA Sem 2 C Programming Notes)"/>
+      <select id="uCourse">
+        <option value="">Select Course</option>
+        <option value="bca">BCA</option><option value="ba">BA</option>
+        <option value="bsc">BSc</option><option value="bcom">BCom</option>
+        <option value="ma">MA</option><option value="msc">MSc</option>
+      </select>
+      <select id="uType">
+        <option value="">Select Type</option>
+        <option value="notes">Study Notes</option>
+        <option value="pyq">PYQ Paper</option>
+        <option value="syllabus">Syllabus</option>
+      </select>
+      <select id="uSem">
+        <option value="1">Semester 1</option><option value="2">Semester 2</option>
+        <option value="3">Semester 3</option><option value="4">Semester 4</option>
+        <option value="5">Semester 5</option><option value="6">Semester 6</option>
+      </select>
+      <button class="btn-primary" onclick="submitUpload()" style="justify-content:center">&#128228; Upload PDF</button>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <a href="#" class="logo" style="font-size:1.5rem">UOR Notes <span>NSR</span></a>
+      <p>The go-to free resource for Rajasthan University students. Download notes, PYQ papers &mdash; zero cost, forever.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Courses</h4>
+      <ul><li><a href="#">BCA Notes</a></li><li><a href="#">BA Notes</a></li><li><a href="#">BSc Notes</a></li><li><a href="#">BCom Notes</a></li><li><a href="#">MA Notes</a></li></ul>
+    </div>
+    <div class="footer-col">
+      <h4>Resources</h4>
+      <ul><li><a href="#">PYQ Papers</a></li><li><a href="#">Syllabus PDF</a></li><li><a href="#">Model Papers</a></li><li><a href="#">Assignments</a></li></ul>
+    </div>
+    <div class="footer-col">
+      <h4>Info</h4>
+      <ul><li><a href="#">About</a></li><li><a href="#">Contact</a></li><li><a href="#">Privacy Policy</a></li><li><a href="#">Disclaimer</a></li></ul>
+    </div>
+  </div>
+  <div class="ad-slot" style="margin:0 0 22px">&#9646; Advertisement</div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 UOR Notes NSR &middot; All rights reserved</p>
+    <div class="made-badge">&#10022; Made by NSR Rathore</div>
+  </div>
+</footer>
+
+<button id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">&#8679;</button>
+
+<div class="modal-overlay" id="modal">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal()">&#10005;</button>
+    <h3 id="modalTitle">Download PDF</h3>
+    <p>Your free PDF is ready. No signup required!</p>
+    <a id="modalBtn" href="#" class="btn-primary" download>&#128229; Download PDF</a>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+var STORE='uor_nsr_v2',selFile=null,noteFilter='all',pyqFilter='all';
+function load(){try{return JSON.parse(localStorage.getItem(STORE))||{notes:[],pyq:[]}}catch(e){return{notes:[],pyq:[]}}}
+function save(d){localStorage.setItem(STORE,JSON.stringify(d))}
+function seed(){
+  var d=load();if(d.notes.length)return;
+  d.notes=[
+    {id:1,title:'C Programming Complete Notes',course:'bca',sem:'2',subject:'Computer Science',pages:48,date:'2025-06-10',fileUrl:'#',isNew:true},
+    {id:2,title:'Data Structures & Algorithms',course:'bca',sem:'3',subject:'Computer Science',pages:62,date:'2025-05-20',fileUrl:'#',isNew:false},
+    {id:3,title:'Modern Indian History Notes',course:'ba',sem:'2',subject:'History',pages:38,date:'2025-04-15',fileUrl:'#',isNew:false},
+    {id:4,title:'Organic Chemistry Unit 1-5',course:'bsc',sem:'4',subject:'Chemistry',pages:55,date:'2025-06-01',fileUrl:'#',isNew:true},
+    {id:5,title:'Microeconomics BA 2nd Year',course:'ba',sem:'4',subject:'Economics',pages:44,date:'2025-03-12',fileUrl:'#',isNew:false},
+    {id:6,title:'Financial Accounting BCom',course:'bcom',sem:'3',subject:'Commerce',pages:70,date:'2025-05-08',fileUrl:'#',isNew:false}
+  ];
+  d.pyq=[
+    {id:101,title:'BCA Sem 2 C Programming PYQ 2024',course:'bca',year:'2024',subject:'Computer Science',pages:8,date:'2024-12-01',fileUrl:'#',isHot:true},
+    {id:102,title:'BA Political Science Paper 2023',course:'ba',year:'2023',subject:'Political Sci',pages:6,date:'2023-11-20',fileUrl:'#',isHot:false},
+    {id:103,title:'BSc Chemistry Paper II 2024',course:'bsc',year:'2024',subject:'Chemistry',pages:7,date:'2024-12-05',fileUrl:'#',isHot:true},
+    {id:104,title:'BCom Accounts PYQ 2022',course:'bcom',year:'2022',subject:'Commerce',pages:5,date:'2022-11-18',fileUrl:'#',isHot:false},
+    {id:105,title:'MA Hindi Sahitya Paper 2023',course:'ma',year:'2023',subject:'Hindi',pages:6,date:'2023-11-25',fileUrl:'#',isHot:false},
+    {id:106,title:'BCA Sem 4 DBMS PYQ 2024',course:'bca',year:'2024',subject:'Computer Science',pages:9,date:'2024-11-30',fileUrl:'#',isHot:true}
+  ];
+  save(d);
+}
+function fmtDate(s){var dt=new Date(s),m=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];return dt.getDate()+' '+m[dt.getMonth()]+' '+dt.getFullYear()}
+function renderNotes(tab,q){
+  var d=load(),items=d.notes;
+  if(tab&&tab!=='all')items=items.filter(function(n){return n.course===tab});
+  if(q)items=items.filter(function(n){return n.title.toLowerCase().indexOf(q.toLowerCase())>=0||n.subject.toLowerCase().indexOf(q.toLowerCase())>=0});
+  var g=document.getElementById('notesGrid');
+  if(!items.length){g.innerHTML='<p class="empty">No notes found. Add from admin panel!</p>';updateStats();return;}
+  g.innerHTML=items.map(function(n,i){
+    return '<div class="card" style="animation-delay:'+i*.05+'s">'+
+      '<div class="card-head"><div class="card-icon icon-notes">&#128196;</div>'+
+      '<div class="card-meta"><div class="card-tag">'+n.course.toUpperCase()+' &middot; Sem '+n.sem+'</div>'+
+      '<div class="card-title">'+n.title+(n.isNew?'<span class="badge-new">NEW</span>':'')+'</div></div></div>'+
+      '<div class="card-body"><p class="card-desc">'+n.subject+' &middot; '+n.pages+' pages &middot; '+fmtDate(n.date)+'</p></div>'+
+      '<div class="card-footer"><span class="card-info">PDF</span>'+
+      '<a class="dl-btn" href="'+n.fileUrl+'" onclick="openModal(\''+n.title.replace(/'/g,"\\'").replace(/"/g,'&quot;')+'\',\''+n.fileUrl+'\',event)">&#128229; Free Download</a></div></div>';
+  }).join('');
+  updateStats();
+}
+function renderPYQ(tab,q){
+  var d=load(),items=d.pyq;
+  if(tab&&tab!=='all')items=items.filter(function(p){return p.year===tab});
+  if(q)items=items.filter(function(p){return p.title.toLowerCase().indexOf(q.toLowerCase())>=0||p.subject.toLowerCase().indexOf(q.toLowerCase())>=0});
+  var g=document.getElementById('pyqGrid');
+  if(!items.length){g.innerHTML='<p class="empty">No PYQ papers found.</p>';return;}
+  g.innerHTML=items.map(function(p,i){
+    return '<div class="card" style="animation-delay:'+i*.05+'s">'+
+      '<div class="card-head"><div class="card-icon icon-pyq">&#10067;</div>'+
+      '<div class="card-meta"><div class="card-tag">PYQ &middot; '+p.year+'</div>'+
+      '<div class="card-title">'+p.title+(p.isHot?'<span class="badge-hot">&#128293; HOT</span>':'')+'</div></div></div>'+
+      '<div class="card-body"><p class="card-desc">'+p.subject+' &middot; '+p.pages+' pages &middot; '+p.course.toUpperCase()+'</p></div>'+
+      '<div class="card-footer"><span class="card-info">PDF</span>'+
+      '<a class="dl-btn" href="'+p.fileUrl+'" onclick="openModal(\''+p.title.replace(/'/g,"\\'").replace(/"/g,'&quot;')+'\',\''+p.fileUrl+'\',event)">&#128229; Free Download</a></div></div>';
+  }).join('');
+}
+function filterTab(btn,val,type){
+  var id=type==='note'?'noteTabs':'pyqTabs';
+  document.querySelectorAll('#'+id+' .tab').forEach(function(t){t.classList.remove('active')});
+  btn.classList.add('active');
+  var q=document.getElementById('searchInput').value;
+  if(type==='note'){noteFilter=val;renderNotes(val,q);}else{pyqFilter=val;renderPYQ(val,q);}
+}
+function filterAll(){var q=document.getElementById('searchInput').value;renderNotes(noteFilter,q);renderPYQ(pyqFilter,q);}
+function updateStats(){
+  var d=load();
+  document.getElementById('cNotes').textContent=d.notes.length;
+  document.getElementById('cPyq').textContent=d.pyq.length;
+  var t=(d.notes.length+d.pyq.length)*47+312;
+  document.getElementById('cStudents').textContent=t>999?(t/1000).toFixed(1)+'K+':t;
+}
+function handleFile(inp){if(inp.files[0]){selFile=inp.files[0];showToast('File selected: '+selFile.name);}}
+function submitUpload(){
+  var title=document.getElementById('uTitle').value.trim();
+  var course=document.getElementById('uCourse').value;
+  var type=document.getElementById('uType').value;
+  var sem=document.getElementById('uSem').value;
+  if(!title){showToast('Please enter a title');return;}
+  if(!course){showToast('Please select a course');return;}
+  var d=load(),today=new Date().toISOString().split('T')[0];
+  var url=selFile?URL.createObjectURL(selFile):'#';
+  if(type==='pyq'){d.pyq.unshift({id:Date.now(),title:title,course:course,year:new Date().getFullYear().toString(),subject:'General',pages:0,date:today,fileUrl:url,isHot:false});}
+  else{d.notes.unshift({id:Date.now(),title:title,course:course,sem:sem||'1',subject:'General',pages:0,date:today,fileUrl:url,isNew:true});}
+  save(d);
+  document.getElementById('uTitle').value='';document.getElementById('uCourse').value='';
+  document.getElementById('uType').value='';document.getElementById('fileIn').value='';
+  selFile=null;renderNotes(noteFilter,'');renderPYQ(pyqFilter,'');showToast('PDF uploaded successfully!');
+}
+function openModal(title,url,e){
+  if(url==='#'){e.preventDefault();showToast('Demo entry - add real PDF from admin panel');return;}
+  e.preventDefault();document.getElementById('modalTitle').textContent=title;
+  document.getElementById('modalBtn').href=url;document.getElementById('modal').classList.add('open');
+}
+function closeModal(){document.getElementById('modal').classList.remove('open');}
+document.getElementById('modal').addEventListener('click',function(e){if(e.target===this)closeModal();});
+function showToast(msg){var t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');setTimeout(function(){t.classList.remove('show');},3000);}
+window.addEventListener('scroll',function(){document.getElementById('scrollTop').classList.toggle('show',window.scrollY>400);});
+seed();renderNotes('all','');renderPYQ('all','');
+</script>
+</body>
+</html>
